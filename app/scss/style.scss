@@ -262,6 +262,7 @@
         color: $title;
         font-size: 110px;
         line-height: 135px;
+        @extend %title-font;
         padding-bottom: 26px;
         margin-bottom: 26px;
         position: relative;
@@ -362,5 +363,35 @@
         font-weight: 600;
         font-size: 14px;
         color: #707070;
+    }
+}
+
+.decor {
+    padding: 170px 0 155px;
+    background-image: url(../images/decor-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__title {
+        max-width: 730px;
+        color: $title;
+        font-size: 60px;
+        line-height: 80px;
+        font-weight: 700;
+        @extend %title-font;
+        padding-bottom: 22px;
+        margin-bottom: 22px;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            height: 1px;
+            background: #6D7278;
+        }
+    }
+    &__text {
+        max-width: 540px;
     }
 }
