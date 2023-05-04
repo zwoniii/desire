@@ -7,4 +7,8 @@ $(function () {
         $('.rightside-menu').addClass('rightside-menu--close');
     })
     
+    $('.top__slider').slick({
+        dots: true,
+        arrows: false
+    });
 })
