@@ -1088,7 +1088,7 @@
     }
     &__arrow--disabled {
         opacity: 0;
-        display: none;
+        pointer-events: none;
     }
     &__list-num {
         font-weight: 600;
@@ -1152,3 +1152,4 @@
         font-size: 14px;
     }
 }
+
