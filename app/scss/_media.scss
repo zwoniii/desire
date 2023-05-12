@@ -157,6 +157,20 @@
             order: 1;
         }
     }
+    .blog-box {
+        &__items {
+            display: block;
+        }
+        &__item {
+            margin-bottom: 20px;
+        }
+        &__img-link {
+            display: block;
+        }
+        &__img {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 540px) {
@@ -231,6 +245,12 @@
         &__item:first-child {
             grid-column: 1;
             grid-row: 1;
+        }
+    }
+    .blog-box {
+        &__item-title {
+            font-size: 22px;
+            line-height: 36px;
         }
     }
 }
