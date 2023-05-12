@@ -133,6 +133,11 @@
     .inspiration__img {
         display: none;
     }
+    .partners {
+        &__items {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
 }
 
 @media (max-width: 650px) {
