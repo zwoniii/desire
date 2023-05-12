@@ -34,6 +34,14 @@
             padding: 6px 10px;
         }
     }
+    .about {
+        &__text {
+            padding-left: 0;
+        }
+        &__content {
+            padding: 40px 0;
+        }
+    }
 }
 
 @media (max-width: 840px) {
