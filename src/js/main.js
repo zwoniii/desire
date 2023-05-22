@@ -1,3 +1,5 @@
+import '../scss/style.scss';
+
 $(function () {
 
     $('.header__btn').on('click', function () {
